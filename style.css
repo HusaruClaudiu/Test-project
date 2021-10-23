@@ -1,0 +1,125 @@
+body {
+	background-image: url(./media/img_hero.jpg);
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-family: roboto;
+	font-weight: 900;
+	color: #4f4d53;
+	text-align: center;
+	font-size:100px;
+	margin-top: 180px;
+}
+
+.navbar{
+	background-color: #4f4d53;
+	padding-left:20%;
+	margin: -8px;
+
+}
+
+h2 {
+	font-family: roboto;
+	font-weight: 900;
+	font-size: 64px;
+	color: #E8BE02;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: roboto;
+	font-size: 20px;
+	color: #E8BE02;
+	font-weight: 900;
+}
+
+h4 {
+	font-family: roboto;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+p{
+	font-family: roboto;
+	font-size: 20px;
+	color: #4F4D53;
+	font-weight: 400;
+	margin:auto;
+	width:60%;
+	text-align: center;
+	margin-bottom:100px;
+}
+footer{
+	border-top:12px solid #E8BE02;
+	background-color: #4f4d53;
+	margin: -8px;
+	padding-left:20%;
+	display:flex;
+}
+.menus{
+	margin-left: 10%;
+}
+
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.image {
+	margin: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
